@@ -1,0 +1,63 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Viga';
+}
+body {
+	/* Membuat background di belakang kalkulator */
+	background: #5e0682;
+	height: 637px;
+}
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #72acc9;
+	color: white;
+	border-radius: 10px;
+	
+}
+.btn-green {
+	background:lightgreen;
+	color: white;
+}
+.btn-yellow {
+	background:rgb(151, 130, 8);
+	color:#f0f0f0;
+}
+.btn-red {
+	background:rgb(242, 6, 6);
+	color:white;
+}
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #607d8b;
+	border-radius: 5px;
+	text-align: right;
+}
+/* Menaruh kalkulatornya */
+.konten {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgba(0,0,0,0.4);
+	padding: 25px;
+	border-radius: 10px;
+	
+}
+/* Tulisan Kalkulator */
+.konten h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Arial';
+}
